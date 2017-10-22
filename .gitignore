@@ -1,0 +1,9 @@
+*~
+node_modules
+typings
+.DS_Store
+.idea/
+/font-splider/build
+jsconfig.json
+.vscode
+modules
