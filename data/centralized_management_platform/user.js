@@ -1,9 +1,9 @@
 /**
  * Created by Thinkpad on 2017/9/30.
  */
-var Mock = require('../mock');
+let {Mock} = require(require('app-root-path') + '/utils/data_utils')
 
-var user_info = {
+let user_info = {
     'id': '@id()',
     'name':'@cname()',
     'sex':'@cword("男女")',

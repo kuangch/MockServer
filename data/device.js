@@ -1,10 +1,9 @@
 /**
  * Created by Thinkpad on 2017/9/30.
  */
+let {Mock} = require(require('app-root-path') + '/utils/data_utils')
 
-var Mock = require('../mock');
-
-var device_info = {
+let device_info = {
     'device_id': '@guid',
     'last_login':'@now'
 };
