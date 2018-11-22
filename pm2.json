@@ -1,0 +1,22 @@
+/* ========================================
+ *  company : Dilusense
+ *   author : Kuangch
+ *     date : 2018/11/22
+ * ======================================== */
+
+{
+    "apps": [{
+    "name": "MockServer",
+    "script": "index.js",
+    "cwd": "/opt/repos/MockServer",
+    "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+
+    }
+}]
+}
