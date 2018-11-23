@@ -1,5 +1,11 @@
+let app = require('./express_instance');
+let request_handler = require('./middleware/request_handler');
+let bodyParser = require('body-parser');
+app.use(bodyParser.json())
+app.use(request_handler.RequestShow)
+app.use(request_handler.ApplicationJsonShow)
+
 require('./api');
-var app = require('./express_instance');
 
 var server = app.listen(8888,function(){
     var host = server.address().address;
